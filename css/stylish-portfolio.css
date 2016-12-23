@@ -13,7 +13,8 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+     font-family: 'Source Serif Pro', serif;
+
 }
 
 .text-vertical-center {
@@ -155,17 +156,34 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/IMG_8137.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 
+.intro {
+    color: #ffffff;
+    font-family: 'Sofia', cursive;
+}
+
+.intro2 {
+    color: #ffffff;
+    font-family: 'Rancho', cursive;
+    font-size: 35px;
+}
+
+
 /* About */
 
 .about {
     padding: 50px 0;
+}
+
+.a_intro {
+    font-family: 'Rancho', cursive;
+    font-size: 40px;
 }
 
 /* Services */
@@ -194,6 +212,12 @@ hr.small {
 
 /* Portfolio */
 
+.p_intro {
+    font-family: 'Rancho', cursive;
+    font-size: 40px;
+
+}
+
 .portfolio {
     padding: 50px 0;
 }
@@ -218,22 +242,6 @@ hr.small {
 
 .call-to-action .btn {
     margin: 10px;
-}
-
-/* Map */
-
-.map {
-    height: 500px;
-}
-
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
-}
-
-.map iframe {
-    pointer-events: none;
 }
 
 /* Footer */
@@ -268,6 +276,8 @@ footer {
   top: 0;
   left: 0;
   padding: 50px 20px;
+  font-family: 'Sofia', cursive;
+
 }
 
 .hovereffect img {
