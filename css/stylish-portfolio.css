@@ -186,6 +186,11 @@ hr.small {
     font-size: 40px;
 }
 
+.a_about {
+    font-size: 18px;
+    line-height: 40px;
+}
+
 /* Services */
 
 .services {
